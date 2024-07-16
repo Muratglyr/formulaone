@@ -16,3 +16,11 @@ Erstellen Sie eine `config.json` Datei im Stammverzeichnis des Projekts. Verwend
   "region_name": "us-west-2",
   "table_name": "YOUR_TABLE_NAME"
 }
+
+
+## Tests
+
+Um die Funktionalität zu testen, führen Sie die Tests im `tests` Verzeichnis aus. Hier ist ein Beispiel, wie Sie die Tests ausführen können:
+
+```bash
+python -m unittest discover -s tests
